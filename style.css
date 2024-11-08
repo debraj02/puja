@@ -195,3 +195,36 @@ body {
     font-weight: inherit;
     font-style: inherit;
   }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: to add a slight background */
+  }
+  .career-message {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    max-width: 300px;
+    margin: 10px auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    overflow: hidden;
+    line-height: 1.5;
+    max-height: 3em; /* Limiting height to 2 lines */
+    text-overflow: ellipsis;
+}
+
+.career-message p {
+    color: #333;
+    font-size: 12px;
+    margin: 0;
+    display: block; /* Allow paragraphs to be displayed as blocks */
+    white-space: normal; /* Allow text to wrap within the paragraph */
+}
